@@ -18,6 +18,10 @@ Convert an image and segmentation mask to OME-Zarr and pack them together in a s
 
     python convert_images_and_masks_to_omezarr.py /path/to/image  /path/to/mask
 
+By default, the new Zarr file is created in the input image path, but an output file path can be specified using the `--output_dirpath` option:
+
+    python convert_images_and_masks_to_omezarr.py /path/to/image  /path/to/mask --output_dirpath /path/to/output/directory 
+
 
 
 
