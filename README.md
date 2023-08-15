@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/678405297.svg)](https://zenodo.org/badge/latestdoi/678405297)
+
 # bia-images-masks-to-omezarr
 
 Script for converting images and segmentation masks to OME-Zarr. Images and masks can be converted to different OME-Zarr files or packed together in a single OME-Zarr file.
